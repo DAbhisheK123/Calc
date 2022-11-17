@@ -11,6 +11,7 @@ const clicked=(event)=>{
    
 }
 const calculate=()=>{
+   // eslint-disable-next-line 
   try{setResult(eval(result).toString());}
   catch(err){setResult(result)} 
 }
